@@ -1,0 +1,28 @@
+{
+  "name": "healthcare-server",
+  "version": "1.0.0",
+  "description": "Sample API Server for Our HealthCare App",
+  "main": "app.js",
+  "scripts": {
+    "shell": "node app.js",
+    "start": "npm run shell",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magickworx/HealthCareServer.git"
+  },
+  "keywords": [
+    "healthcare"
+  ],
+  "author": "Kouichi ABE (WALL)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/magickworx/HealthCareServer/issues"
+  },
+  "homepage": "https://github.com/magickworx/HealthCareServer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
